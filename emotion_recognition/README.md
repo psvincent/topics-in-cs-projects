@@ -1,8 +1,5 @@
 # Emotion recognition using EEG and computer games (+micro:bit)
 
-> [!IMPORTANT]
-> You are expected to encounter errors when working on this project (e.g., problems with library installation, environment setup, pathing issues, bad connection to the micro:bit, etc.) These errors are a natural part of developing a CI workflow. Learning how to resolve these errors is a part of this project!
-
 ## Setup (for both local and remote)
 
 1. Create a new conda environment for this project (use `python=3.10`) and activate it.
@@ -36,8 +33,3 @@ You are going to work with the dataset that contains EEG signals recorded from p
 ## Experiment 2 (run on remote)
 
 Transform the notebook from Experiment 1 into a script that can run on a terminal-first machine (e.g., FABRIC). Train the network on a remote machine and compare the training time between local and remote.
-
-## To submit
-
-1. A Word document with answers to questions 1-2 from Experiment 1 and with time comparison from Experiment 2.
-2. A completed notebook from Experiment 1.
