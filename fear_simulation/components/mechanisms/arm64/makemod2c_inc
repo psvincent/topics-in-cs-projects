@@ -1,0 +1,56 @@
+gap.cpp: .././gap.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../.";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "gap.mod"  -o "/Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64" )
+
+./gap.o: gap.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../." $(INCLUDES) -fPIC -c "/Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64/$<" -o $@
+
+k_rtm.cpp: .././k_rtm.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../.";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "k_rtm.mod"  -o "/Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64" )
+
+./k_rtm.o: k_rtm.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../." $(INCLUDES) -fPIC -c "/Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64/$<" -o $@
+
+k_wb.cpp: .././k_wb.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../.";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "k_wb.mod"  -o "/Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64" )
+
+./k_wb.o: k_wb.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../." $(INCLUDES) -fPIC -c "/Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64/$<" -o $@
+
+leak.cpp: .././leak.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../.";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "leak.mod"  -o "/Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64" )
+
+./leak.o: leak.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../." $(INCLUDES) -fPIC -c "/Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64/$<" -o $@
+
+na_rtm.cpp: .././na_rtm.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../.";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "na_rtm.mod"  -o "/Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64" )
+
+./na_rtm.o: na_rtm.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../." $(INCLUDES) -fPIC -c "/Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64/$<" -o $@
+
+na_wb.cpp: .././na_wb.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../.";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "na_wb.mod"  -o "/Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64" )
+
+./na_wb.o: na_wb.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../." $(INCLUDES) -fPIC -c "/Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64/$<" -o $@
+
+vecevent.cpp: .././vecevent.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../.";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "vecevent.mod"  -o "/Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64" )
+
+./vecevent.o: vecevent.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../." $(INCLUDES) -fPIC -c "/Users/trophv/4001/mini-project-1/CI-BioEng-Class/fear_simulation/components/mechanisms/arm64/$<" -o $@
+
