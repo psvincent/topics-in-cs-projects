@@ -44,18 +44,3 @@ to build the network.
 4. Run `python check_output.py` to compute the oscillation frequency. The script will also try to flash the output onto the micro:bit.
 
 Note: the output file must be on your local machine (to which the micro:bit is connected) for flashing to work. If you are running the scripts on a remote machine (e.g., FABRIC), you might need an additional step to transfer the outputs to your local machine.
-
-## To do
-
-(in case of questions, use AI augmentation)
-
-1. Apply a 0.2 nA current. What is the oscillation frequency? What emotional state can it correspond to?
-2. Apply a 1.0 nA current. What is the oscillation frequency? What emotional state can it correspond to?
-
-## To submit
-
-Submit a single Word document with:
-1. Answers to the questions in the **To do** section.
-2. Screenshots of the Terminal window showing the oscillation frequencies.
-
-Additionally, sumbit 2 short videos showcasing micro:bit flickering for the two cases. 
